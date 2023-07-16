@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
                 if (this.game.keys.indexOf(e.key) > -1) {
                     this.game.keys.splice(this.game.keys.indexOf(e.key), 1);
                 }
-                console.log('removed: ' + this.game.keys);
+                console.log('removed: ' + e.key + " queue is " + this.game.keys);
             });
         }
 
